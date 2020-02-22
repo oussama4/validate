@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gobuffalo/validate/v3"
+	"github.com/oussama4/validate/v3"
 )
 
 type StringsMatch struct {

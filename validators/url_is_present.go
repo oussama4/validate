@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/gobuffalo/validate/v3"
+	"github.com/oussama4/validate/v3"
 )
 
 type URLIsPresent struct {
