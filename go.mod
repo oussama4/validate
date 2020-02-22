@@ -1,4 +1,4 @@
-module github.com/oussama4/validate/v3
+module github.com/oussama4/validate/v4
 
 go 1.13
 
