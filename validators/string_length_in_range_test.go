@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/oussama4/validate/v3"
+	"github.com/oussama4/validate/v4"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/oussama4/validate/v3"
+	"github.com/oussama4/validate/v4"
 )
 
 var rxEmail *regexp.Regexp

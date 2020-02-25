@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/oussama4/validate/v3"
+	"github.com/oussama4/validate/v4"
 )
 
 // RegexMatch specifies the properties needed by the validation.

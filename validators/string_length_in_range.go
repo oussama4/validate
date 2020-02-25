@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/oussama4/validate/v3"
+	"github.com/oussama4/validate/v4"
 )
 
 type StringLengthInRange struct {

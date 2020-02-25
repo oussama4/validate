@@ -3,7 +3,7 @@ package validators_test
 import (
 	"testing"
 
-	"github.com/oussama4/validate/v3/validators"
+	"github.com/oussama4/validate/v4/validators"
 	"github.com/stretchr/testify/require"
 )
 

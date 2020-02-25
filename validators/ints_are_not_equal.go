@@ -3,7 +3,7 @@ package validators
 import (
 	"fmt"
 
-	"github.com/oussama4/validate/v3"
+	"github.com/oussama4/validate/v4"
 )
 
 // IntsAreNotEqual is a validator that compares two integers and will add
