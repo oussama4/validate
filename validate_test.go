@@ -1,7 +1,6 @@
 package validate
 
 import (
-	"encoding/xml"
 	"testing"
 
 	"github.com/stretchr/testify/require"
@@ -36,20 +35,4 @@ func TestErrorsKeys(t *testing.T) {
 	errors := Validate(&v1{}, &v2{})
 	r.Contains(errors.Keys(), "v1")
 	r.Contains(errors.Keys(), "v2")
-}
-
-func Test_ErrorsXML(t *testing.T) {
-	r := require.New(t)
-
-	errors := Errors{
-		Errors: map[string][]string{
-			"name":  []string{"name1", "name2"},
-			"email": []string{"emailA", "emailB"},
-		},
-	}
-
-	x, err := xml.Marshal(errors)
-	r.NoError(err)
-	r.Contains(string(x), "<errors>")
-	r.Contains(string(x), "<email><message>emailA")
 }
