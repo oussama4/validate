@@ -1,12 +1,12 @@
-# github.com/gobuffalo/validate
-[![Build Status](https://travis-ci.org/gobuffalo/validate.svg?branch=master)](https://travis-ci.org/gobuffalo/validate) [![GoDoc](https://godoc.org/github.com/gobuffalo/validate?status.svg)](https://godoc.org/github.com/gobuffalo/validate)
+# github.com/oussama4/validate
+[![Build Status](https://travis-ci.org/gobuffalo/validate.svg?branch=master)](https://travis-ci.org/gobuffalo/validate) [![GoDoc](https://godoc.org/github.com/oussama4/validate?status.svg)](https://godoc.org/github.com/oussama4/validate)
 
 This package provides a framework for writing validations for Go applications. It does provide you with few validators, but if you need others you can easly build them.
 
 ## Installation
 
 ```bash
-$ go get github.com/gobuffalo/validate
+$ go get github.com/oussama4/validate
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ package main
 import (
 	"log"
 
-	v "github.com/gobuffalo/validate"
+	v "github.com/oussama4/validate"
 )
 
 type User struct {
@@ -56,7 +56,7 @@ import (
 	"log"
 	"strings"
 
-	v "github.com/gobuffalo/validate"
+	v "github.com/oussama4/validate"
 )
 
 type User struct {
@@ -95,8 +95,8 @@ package main
 import (
 	"log"
 
-	"github.com/gobuffalo/validate"
-	"github.com/gobuffalo/validate/validators"
+	"github.com/oussama4/validate"
+	"github.com/oussama4/validate/validators"
 )
 
 type User struct {
@@ -120,4 +120,4 @@ All fields are required for each validators, except Message (every validator has
 
 ### Available Validators
 
-A full list of available validators can be found at [https://godoc.org/github.com/gobuffalo/validate/validators](https://godoc.org/github.com/gobuffalo/validate/validators).
+A full list of available validators can be found at [https://godoc.org/github.com/oussama4/validate/validators](https://godoc.org/github.com/oussama4/validate/validators).
